@@ -1,0 +1,101 @@
+<html>
+    <head>
+        <style>
+            * {
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+            }
+            body {
+                background: #f2f2f2;
+            }
+            @keyframes slide {
+                from {
+                    transform: translateX(0);
+                }
+                to {
+                    transform: translateX(-100%);
+                }
+            }
+            .logos {
+                overflow: hidden;
+                padding: 60px 0;
+                background: white;
+                white-space: nowrap;
+                position: relative;
+            }
+            .logos:before,
+            .logos:after {
+                position: absolute;
+                top: 0;
+                width: 250px;
+                height: 100%;
+                content: "";
+                z-index: 2;
+            }
+            .logos:before {
+                left: 0;
+                background: linear-gradient(to left, rgba(255, 255, 255, 0), white);
+            }
+            .logos:after {
+                right: 0;
+                background: linear-gradient(to right, rgba(255, 255, 255, 0), white);
+            }
+            .logos:hover .logos-slide {
+                animation-play-state: paused;
+            }
+            .logos-slide {
+                display: inline-block;
+                animation: 90s slide infinite linear;
+            }
+            .logos-slide img {
+                height: 75px;
+                margin: 0 40px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="logos">
+            <div class="logos-slide">
+                <img src="https://raw.githubusercontent.com/neurowide/media-neurowide-website/main/aphp-logo.jpg" height="100" width="250" alt=""/>
+                <img src="https://raw.githubusercontent.com/neurowide/media-neurowide-website/main/tedxsaclay-logo.jpg" height="100" width="250" alt=""/>
+                <img src="https://raw.githubusercontent.com/neurowide/media-neurowide-website/main/bouygues-construction-logo.jpg" height="100" width="250" alt=""/>
+                <img src="https://raw.githubusercontent.com/neurowide/media-neurowide-website/main/marche-du-film-logo.jpg" height="100" width="250" alt=""/>
+                <img src="https://raw.githubusercontent.com/neurowide/media-neurowide-website/main/ambassade-de-france-portugal-logo.jpg" height="100" width="250" alt=""/>
+                <img src="https://raw.githubusercontent.com/neurowide/media-neurowide-website/main/fnbp-logo.jpg" height="100" width="250" alt=""/>
+                <img src="https://raw.githubusercontent.com/neurowide/media-neurowide-website/main/pmi-logo.jpg" height="100" width="250" alt=""/>
+                <img src="https://raw.githubusercontent.com/neurowide/media-neurowide-website/main/midem-logo.jpg" height="100" width="250" alt=""/>
+                <img src="https://raw.githubusercontent.com/neurowide/media-neurowide-website/main/inserm-logo.jpg" height="100" width="250" alt=""/>
+                <img src="https://raw.githubusercontent.com/neurowide/media-neurowide-website/main/cibp-logo.jpg" height="100" width="250" alt=""/>
+                <img src="https://raw.githubusercontent.com/neurowide/media-neurowide-website/main/bcu-logo.jpg" height="100" width="250" alt=""/>
+                <img src="https://raw.githubusercontent.com/neurowide/media-neurowide-website/main/ifp-logo.jpg" height="100" width="250" alt=""/>
+                <img src="https://raw.githubusercontent.com/neurowide/media-neurowide-website/main/dzbank-logo.jpg" height="100" width="250" alt=""/>
+                <img src="https://raw.githubusercontent.com/neurowide/media-neurowide-website/main/alba-network-logo.jpg" height="100" width="250" alt=""/>
+                <img src="https://raw.githubusercontent.com/neurowide/media-neurowide-website/main/uvsq-logo.jpg" height="100" width="250" alt=""/>
+                <img src="https://raw.githubusercontent.com/neurowide/media-neurowide-website/main/prosci-logo.jpg" height="100" width="250" alt=""/>
+                <img src="https://raw.githubusercontent.com/neurowide/media-neurowide-website/main/fens-logo.jpg" height="100" width="250" alt=""/>
+                <img src="https://raw.githubusercontent.com/neurowide/media-neurowide-website/main/nexum-logo.jpg" height="100" width="250" alt=""/>
+            </div>
+            <div class="logos-slide">
+                <img src="https://raw.githubusercontent.com/neurowide/media-neurowide-website/main/aphp-logo.jpg" height="100" width="250" alt=""/>
+                <img src="https://raw.githubusercontent.com/neurowide/media-neurowide-website/main/tedxsaclay-logo.jpg" height="100" width="250" alt=""/>
+                <img src="https://raw.githubusercontent.com/neurowide/media-neurowide-website/main/bouygues-construction-logo.jpg" height="100" width="250" alt=""/>
+                <img src="https://raw.githubusercontent.com/neurowide/media-neurowide-website/main/marche-du-film-logo.jpg" height="100" width="250" alt=""/>
+                <img src="https://raw.githubusercontent.com/neurowide/media-neurowide-website/main/ambassade-de-france-portugal-logo.jpg" height="100" width="250" alt=""/>
+                <img src="https://raw.githubusercontent.com/neurowide/media-neurowide-website/main/fnbp-logo.jpg" height="100" width="250" alt=""/>
+                <img src="https://raw.githubusercontent.com/neurowide/media-neurowide-website/main/pmi-logo.jpg" height="100" width="250" alt=""/>
+                <img src="https://raw.githubusercontent.com/neurowide/media-neurowide-website/main/midem-logo.jpg" height="100" width="250" alt=""/>
+                <img src="https://raw.githubusercontent.com/neurowide/media-neurowide-website/main/inserm-logo.jpg" height="100" width="250" alt=""/>
+                <img src="https://raw.githubusercontent.com/neurowide/media-neurowide-website/main/cibp-logo.jpg" height="100" width="250" alt=""/>
+                <img src="https://raw.githubusercontent.com/neurowide/media-neurowide-website/main/bcu-logo.jpg" height="100" width="250" alt=""/>
+                <img src="https://raw.githubusercontent.com/neurowide/media-neurowide-website/main/ifp-logo.jpg" height="100" width="250" alt=""/>
+                <img src="https://raw.githubusercontent.com/neurowide/media-neurowide-website/main/dzbank-logo.jpg" height="100" width="250" alt=""/>
+                <img src="https://raw.githubusercontent.com/neurowide/media-neurowide-website/main/alba-network-logo.jpg" height="100" width="250" alt=""/>
+                <img src="https://raw.githubusercontent.com/neurowide/media-neurowide-website/main/uvsq-logo.jpg" height="100" width="250" alt=""/>
+                <img src="https://raw.githubusercontent.com/neurowide/media-neurowide-website/main/prosci-logo.jpg" height="100" width="250" alt=""/>
+                <img src="https://raw.githubusercontent.com/neurowide/media-neurowide-website/main/fens-logo.jpg" height="100" width="250" alt=""/>
+                <img src="https://raw.githubusercontent.com/neurowide/media-neurowide-website/main/nexum-logo.jpg" height="100" width="250" alt=""/>
+            </div>
+        </div>
+    </body>
+</html>
